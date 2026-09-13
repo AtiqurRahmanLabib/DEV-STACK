@@ -1,5 +1,5 @@
 export interface TechnologiesType {
-  id: string;
+  id: number;
   name: string;
   icon: string;
   badgeText: string;

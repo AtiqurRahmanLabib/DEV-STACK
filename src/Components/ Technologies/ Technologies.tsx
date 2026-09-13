@@ -1,4 +1,4 @@
-import { use } from "react";
+import { use, useState } from "react";
 import type { TechnologiesType } from "../../Type/Type";
 import TechnologyCard from "./TechnologyCard";
 import Stack from "./Stack";
@@ -9,7 +9,20 @@ interface PropType {
 
 const Technologies = ({ technologiesPromise }: PropType) => {
   const technologiesData = use(technologiesPromise);
-  console.log(technologiesData);
+
+  const [stack, setStack] = useState<TechnologiesType[]>([]);
+
+  const handleAddToStack = (technology: TechnologiesType) => {
+    setStack((prevStack) => [...prevStack, technology]);
+  };
+
+  const handleRemoveOne = (id: number) => {
+    setStack((prevStack) => prevStack.filter((item) => item.id !== id));
+  };
+
+  const handleRemoveAll = () => {
+    setStack([]);
+  };
 
   return (
     <div className="container mx-auto mt-10">
@@ -26,12 +39,21 @@ const Technologies = ({ technologiesPromise }: PropType) => {
       <div className="flex gap-5">
         <div className="grid grid-cols-3 gap-9 mt-10">
           {technologiesData.map((technologyData) => (
-            <TechnologyCard technologyData={technologyData}></TechnologyCard>
+            <TechnologyCard
+              key={technologyData.id}
+              technologyData={technologyData}
+              onAdd={handleAddToStack}
+              isAdded={stack.some((item) => item.id === technologyData.id)}
+            />
           ))}
         </div>
 
         <div className="mt-10">
-          <Stack></Stack>
+          <Stack
+            stack={stack}
+            onRemoveOne={handleRemoveOne}
+            onRemoveAll={handleRemoveAll}
+          />
         </div>
       </div>
     </div>
