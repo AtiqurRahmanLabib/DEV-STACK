@@ -12,7 +12,6 @@ const technologiesData = async (): Promise<TechnologiesType[]> => {
 };
 
 const technologiesPromise = technologiesData();
-console.log(technologiesPromise);
 
 function App() {
   return (
@@ -20,9 +19,7 @@ function App() {
       <Nav></Nav>
       <Banner></Banner>
       <Suspense fallback={<p>Loading...</p>}>
-        <Technologies
-        technologiesPromise={technologiesPromise}
-        ></Technologies>
+        <Technologies technologiesPromise={technologiesPromise}></Technologies>
       </Suspense>
       <Footer></Footer>
     </>

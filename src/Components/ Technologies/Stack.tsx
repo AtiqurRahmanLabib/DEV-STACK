@@ -11,21 +11,10 @@ const Stack = ({ stack, onRemoveOne, onRemoveAll }: PropType) => {
     <div className="w-70 rounded-2xl border border-[#F1F5F9] p-5">
       <div className="flex justify-between items-center">
         <h1 className="text-[16px] font-bold text-[#0F172A]">Your Stack</h1>
-
-        {stack.length > 0 && (
-          <button
-            onClick={onRemoveAll}
-            className="text-[11px] text-[#EF4444] font-medium hover:underline"
-          >
-            Remove All
-          </button>
-        )}
       </div>
 
       {stack.length === 0 ? (
-        <p className="text-[12px] text-[#94A3BB] mt-1">
-          No technologies selected yet.
-        </p>
+        <p className="text-[12px] text-[#94A3BB] mt-1">Your stack is empty.</p>
       ) : (
         <div className="flex flex-col gap-3 mt-3">
           {stack.map((item) => (
@@ -51,6 +40,14 @@ const Stack = ({ stack, onRemoveOne, onRemoveAll }: PropType) => {
               </button>
             </div>
           ))}
+          {stack.length > 0 && (
+            <button
+              onClick={onRemoveAll}
+              className="text-[14px] text-[#D82C20] font-semibold rounded-lg w-57.75 h-7.5 border border-[#ED8C85]"
+            >
+              Remove All
+            </button>
+          )}
         </div>
       )}
     </div>
