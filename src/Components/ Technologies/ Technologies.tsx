@@ -23,14 +23,16 @@ const Technologies = ({ technologiesPromise }: PropType) => {
         Pick one technology per category to build your ideal stack.
       </p>
 
-      <div className="flex">
+      <div className="flex gap-5">
         <div className="grid grid-cols-3 gap-9 mt-10">
           {technologiesData.map((technologyData) => (
             <TechnologyCard technologyData={technologyData}></TechnologyCard>
           ))}
         </div>
 
-        <Stack></Stack>
+        <div className="mt-10">
+          <Stack></Stack>
+        </div>
       </div>
     </div>
   );
