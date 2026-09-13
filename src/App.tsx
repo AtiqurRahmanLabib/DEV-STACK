@@ -6,7 +6,7 @@ import type { TechnologiesType } from "./Type/Type";
 import Footer from "./Components/Footer/Footer";
 
 const technologiesData = async (): Promise<TechnologiesType[]> => {
-  const res = await fetch("../public/Data.json");
+  const res = await fetch("/Data.json");
   const data = await res.json();
   return data;
 };
