@@ -1,7 +1,7 @@
 import BannerImg from "../../assets/banner-stack.png";
 const Banner = () => {
   return (
-    <div className="container mx-auto ">
+    <div className="container mx-auto mt-15">
       {/* banner section*/}
       <div className="mt-7 flex justify-between h-105 p-10 items-center">
         {/* text content */}

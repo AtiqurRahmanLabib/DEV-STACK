@@ -1,5 +1,7 @@
 import { use } from "react";
 import type { TechnologiesType } from "../../Type/Type";
+import TechnologyCard from "./TechnologyCard";
+import Stack from "./Stack";
 
 interface PropType {
   technologiesPromise: Promise<TechnologiesType[]>;
@@ -20,6 +22,16 @@ const Technologies = ({ technologiesPromise }: PropType) => {
       <p className="text-[18px] text-[#64748B]">
         Pick one technology per category to build your ideal stack.
       </p>
+
+      <div className="flex">
+        <div className="grid grid-cols-3 gap-9 mt-10">
+          {technologiesData.map((technologyData) => (
+            <TechnologyCard technologyData={technologyData}></TechnologyCard>
+          ))}
+        </div>
+
+        <Stack></Stack>
+      </div>
     </div>
   );
 };
