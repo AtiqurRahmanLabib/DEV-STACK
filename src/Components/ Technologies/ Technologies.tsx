@@ -2,6 +2,7 @@ import { use, useState } from "react";
 import type { TechnologiesType } from "../../Type/Type";
 import TechnologyCard from "./TechnologyCard";
 import Stack from "./Stack";
+import { toast } from "react-toastify";
 
 interface PropType {
   technologiesPromise: Promise<TechnologiesType[]>;
@@ -14,14 +15,17 @@ const Technologies = ({ technologiesPromise }: PropType) => {
 
   const handleAddToStack = (technology: TechnologiesType) => {
     setStack((prevStack) => [...prevStack, technology]);
+    toast.success('Stack Was Added')
   };
 
   const handleRemoveOne = (id: number) => {
     setStack((prevStack) => prevStack.filter((item) => item.id !== id));
+    toast.warning('Remove Stack')
   };
 
   const handleRemoveAll = () => {
     setStack([]);
+    toast.warning('Remove All Stack')
   };
 
   return (
