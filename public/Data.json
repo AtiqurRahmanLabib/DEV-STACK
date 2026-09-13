@@ -1,0 +1,134 @@
+[
+  {
+    "id": "react",
+    "name": "React",
+    "icon": "react-icon.svg",
+    "badgeText": "Popular",
+    "badgeVariant": "primary",
+    "description": "A declarative, component-based JavaScript library for building modern user interfaces.",
+    "tags": ["Frontend"],
+    "difficulty": "Beginner-Friendly",
+    "rating": 4.9
+  },
+  {
+    "id": "vue",
+    "name": "Vue.js",
+    "icon": "vue-icon.svg",
+    "badgeText": "Versatile",
+    "badgeVariant": "success",
+    "description": "An approachable, performant, and versatile framework for building web user interfaces.",
+    "tags": ["Frontend"],
+    "difficulty": "Beginner-Friendly",
+    "rating": 4.8
+  },
+  {
+    "id": "svelte",
+    "name": "Svelte",
+    "icon": "svelte-icon.svg",
+    "badgeText": "Fast",
+    "badgeVariant": "warning",
+    "description": "A modern frontend framework that shifts work from the browser to the build step for highly optimized applications.",
+    "tags": ["Frontend"],
+    "difficulty": "Intermediate",
+    "rating": 4.8
+  },
+  {
+    "id": "nextjs",
+    "name": "Next.js",
+    "icon": "nextjs-icon.svg",
+    "badgeText": "Trending",
+    "badgeVariant": "primary",
+    "description": "A React framework for building fast, scalable, and production-ready web applications.",
+    "tags": ["Frontend", "Fullstack"],
+    "difficulty": "Intermediate",
+    "rating": 4.9
+  },
+  {
+    "id": "angular",
+    "name": "Angular",
+    "icon": "angular-icon.svg",
+    "badgeText": "Powerful",
+    "badgeVariant": "danger",
+    "description": "A complete TypeScript-based framework for building large-scale and maintainable web applications.",
+    "tags": ["Frontend"],
+    "difficulty": "Intermediate",
+    "rating": 4.7
+  },
+  {
+    "id": "nodejs",
+    "name": "Node.js",
+    "icon": "nodejs-icon.svg",
+    "badgeText": "Popular",
+    "badgeVariant": "success",
+    "description": "A JavaScript runtime that allows developers to build fast and scalable server-side applications.",
+    "tags": ["Backend"],
+    "difficulty": "Intermediate",
+    "rating": 4.9
+  },
+  {
+    "id": "expressjs",
+    "name": "Express.js",
+    "icon": "expressjs-icon.svg",
+    "badgeText": "Minimal",
+    "badgeVariant": "primary",
+    "description": "A lightweight and flexible Node.js framework for building web servers and RESTful APIs.",
+    "tags": ["Backend"],
+    "difficulty": "Beginner-Friendly",
+    "rating": 4.7
+  },
+  {
+    "id": "mongodb",
+    "name": "MongoDB",
+    "icon": "mongodb-icon.svg",
+    "badgeText": "Flexible",
+    "badgeVariant": "success",
+    "description": "A document-oriented NoSQL database designed for flexible data models and scalable applications.",
+    "tags": ["Database"],
+    "difficulty": "Beginner-Friendly",
+    "rating": 4.8
+  },
+  {
+    "id": "typescript",
+    "name": "TypeScript",
+    "icon": "typescript-icon.svg",
+    "badgeText": "Reliable",
+    "badgeVariant": "primary",
+    "description": "A strongly typed programming language that builds on JavaScript to improve code quality and developer productivity.",
+    "tags": ["Language", "Frontend", "Backend"],
+    "difficulty": "Intermediate",
+    "rating": 4.9
+  },
+  {
+    "id": "tailwindcss",
+    "name": "Tailwind CSS",
+    "icon": "tailwindcss-icon.svg",
+    "badgeText": "Modern",
+    "badgeVariant": "success",
+    "description": "A utility-first CSS framework for rapidly creating modern and responsive user interfaces.",
+    "tags": ["Frontend", "CSS"],
+    "difficulty": "Beginner-Friendly",
+    "rating": 4.8
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "icon": "python-icon.svg",
+    "badgeText": "Versatile",
+    "badgeVariant": "warning",
+    "description": "A readable and versatile programming language widely used for web development, automation, data, and AI.",
+    "tags": ["Language", "Backend"],
+    "difficulty": "Beginner-Friendly",
+    "rating": 4.9
+  },
+  {
+    "id": "postgresql",
+    "name": "PostgreSQL",
+    "icon": "postgresql-icon.svg",
+    "badgeText": "Robust",
+    "badgeVariant": "primary",
+    "description": "A powerful open-source relational database known for reliability, advanced features, and data integrity.",
+    "tags": ["Database"],
+    "difficulty": "Intermediate",
+    "rating": 4.9
+  }
+]
