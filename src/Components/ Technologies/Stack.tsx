@@ -14,9 +14,10 @@ const Stack = ({ stack, onRemoveOne, onRemoveAll }: PropType) => {
       </div>
 
       {stack.length === 0 ? (
-        <p className="text-[12px] text-[#94A3BB] mt-1">Your stack is empty.</p>
+        <p className="text-[12px] text-[#94A3BB] mt-1">No technologies selected yet.</p>
       ) : (
         <div className="flex flex-col gap-3 mt-3">
+          <h1 className="text-[#94A3B8] text-[12px]">{stack.length} Technology Selected</h1>
           {stack.map((item) => (
             <div
               key={item.id}

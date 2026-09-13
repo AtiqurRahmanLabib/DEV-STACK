@@ -1,3 +1,4 @@
+import FooterLogo from "../../assets/logo-text.png";
 export default function Footer() {
   const productLinks = ["Home", "Technologies", "Projects"];
   const companyLinks = ["About", "Contact", "Careers"];
@@ -10,8 +11,11 @@ export default function Footer() {
           {/* Brand column */}
           <div>
             <div className="flex items-center gap-2">
-              <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-pink-500 to-fuchsia-600 text-sm font-bold text-white">
+              {/* <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-gradient-to-br from-pink-500 to-fuchsia-600 text-sm font-bold text-white">
                 DS
+              </div> */}
+              <div>
+                <img src={FooterLogo} alt="" />
               </div>
               <span className="text-lg font-semibold text-gray-900">
                 Dev <span className="text-pink-600">Stack</span>

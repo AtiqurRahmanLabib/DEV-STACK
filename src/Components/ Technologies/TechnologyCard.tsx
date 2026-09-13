@@ -16,13 +16,17 @@ const TechnologyCard = ({ technologyData, onAdd, isAdded }: PropType) => {
   };
 
   return (
-    <div>
+    <div className="">
       <div
-        className={`${cardBorderClass} w-[288px] h-71.25 rounded-2xl p-5 transition-all duration-300`}
+        className={`${cardBorderClass} w-[288px] h-71.25 rounded-2xl p-5 transition-all duration-300 mx-auto`}
       >
         <div className="flex justify-between items-center">
-          <div className="w-10 h-10 border">
-            <img src={technologyData.icon} alt="" />
+          <div className="w-10 h-10 overflow-hidden rounded">
+            <img
+              src={technologyData.icon}
+              alt={technologyData.name}
+              className="w-full h-full object-contain"
+            />
           </div>
           <div className="w-[71.11px] h-7 bg-[#D1FAE5] border-[#D1FAE5] text-[#059669] rounded-full border text-center">
             <p>{technologyData.badgeText}</p>

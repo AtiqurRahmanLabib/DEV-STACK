@@ -2,7 +2,7 @@
   {
     "id": "react",
     "name": "React",
-    "icon": "react-icon.svg",
+    "icon": "https://i.ibb.co/5gt5XQJb/React.png",
     "badgeText": "Popular",
     "badgeVariant": "primary",
     "description": "A declarative, component-based JavaScript library for building modern user interfaces.",
@@ -13,7 +13,7 @@
   {
     "id": "vue",
     "name": "Vue.js",
-    "icon": "vue-icon.svg",
+    "icon": "https://i.ibb.co/6JgYfXT4/Vue-js.png",
     "badgeText": "Versatile",
     "badgeVariant": "success",
     "description": "An approachable, performant, and versatile framework for building web user interfaces.",
@@ -24,7 +24,7 @@
   {
     "id": "svelte",
     "name": "Svelte",
-    "icon": "svelte-icon.svg",
+    "icon": "https://i.ibb.co/KxDTndLr/Svelte.png",
     "badgeText": "Fast",
     "badgeVariant": "warning",
     "description": "A modern frontend framework that shifts work from the browser to the build step for highly optimized applications.",
@@ -35,7 +35,7 @@
   {
     "id": "nextjs",
     "name": "Next.js",
-    "icon": "nextjs-icon.svg",
+    "icon": "https://i.ibb.co/4RLCzQpZ/Next-js.png",
     "badgeText": "Trending",
     "badgeVariant": "primary",
     "description": "A React framework for building fast, scalable, and production-ready web applications.",
@@ -46,7 +46,7 @@
   {
     "id": "angular",
     "name": "Angular",
-    "icon": "angular-icon.svg",
+    "icon": "https://i.ibb.co/MD6XmqzK/Angular.png",
     "badgeText": "Powerful",
     "badgeVariant": "danger",
     "description": "A complete TypeScript-based framework for building large-scale and maintainable web applications.",
@@ -57,7 +57,7 @@
   {
     "id": "nodejs",
     "name": "Node.js",
-    "icon": "nodejs-icon.svg",
+    "icon": "https://i.ibb.co/sJFhWtS4/Node-js.png",
     "badgeText": "Popular",
     "badgeVariant": "success",
     "description": "A JavaScript runtime that allows developers to build fast and scalable server-side applications.",
@@ -68,7 +68,7 @@
   {
     "id": "expressjs",
     "name": "Express.js",
-    "icon": "expressjs-icon.svg",
+    "icon": "https://i.ibb.co/gFwDn4kc/Express.png",
     "badgeText": "Minimal",
     "badgeVariant": "primary",
     "description": "A lightweight and flexible Node.js framework for building web servers and RESTful APIs.",
@@ -79,7 +79,7 @@
   {
     "id": "mongodb",
     "name": "MongoDB",
-    "icon": "mongodb-icon.svg",
+    "icon": "https://i.ibb.co/rRSZRLQw/Mongo-DB.png",
     "badgeText": "Flexible",
     "badgeVariant": "success",
     "description": "A document-oriented NoSQL database designed for flexible data models and scalable applications.",
@@ -90,7 +90,7 @@
   {
     "id": "typescript",
     "name": "TypeScript",
-    "icon": "typescript-icon.svg",
+    "icon": "https://i.ibb.co/2Y8TQw0G/Type-Script.png",
     "badgeText": "Reliable",
     "badgeVariant": "primary",
     "description": "A strongly typed programming language that builds on JavaScript to improve code quality and developer productivity.",
@@ -101,7 +101,7 @@
   {
     "id": "tailwindcss",
     "name": "Tailwind CSS",
-    "icon": "tailwindcss-icon.svg",
+    "icon": "https://i.ibb.co/pvRpQ2yZ/Tailwind-CSS.png",
     "badgeText": "Modern",
     "badgeVariant": "success",
     "description": "A utility-first CSS framework for rapidly creating modern and responsive user interfaces.",
@@ -112,7 +112,7 @@
   {
     "id": "python",
     "name": "Python",
-    "icon": "python-icon.svg",
+    "icon": "https://i.ibb.co/wF8gY5cc/Python.png",
     "badgeText": "Versatile",
     "badgeVariant": "warning",
     "description": "A readable and versatile programming language widely used for web development, automation, data, and AI.",
@@ -123,7 +123,7 @@
   {
     "id": "postgresql",
     "name": "PostgreSQL",
-    "icon": "postgresql-icon.svg",
+    "icon": "https://i.ibb.co/b59Kw6CK/Postgres-SQL.png",
     "badgeText": "Robust",
     "badgeVariant": "primary",
     "description": "A powerful open-source relational database known for reliability, advanced features, and data integrity.",
