@@ -8,7 +8,7 @@ interface PropType {
 
 const Stack = ({ stack, onRemoveOne, onRemoveAll }: PropType) => {
   return (
-    <div className="w-70 rounded-2xl border border-[#F1F5F9] p-5">
+    <div className="w-70 rounded-2xl border border-[#F1F5F9] p-5 mx-auto">
       <div className="flex justify-between items-center">
         <h1 className="text-[16px] font-bold text-[#0F172A]">Your Stack</h1>
       </div>
